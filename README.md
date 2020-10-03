@@ -6,7 +6,7 @@ A menu driven Porgram where a User can encrypt a string in various Encryption Me
 ###### 2 Atbash Cipher
 ###### 3 Transpositon Cipher
 ###### 4 PlayFair's Cipher
-###### 
+###### 5 Reverse Cipher
 Working On More
 
 ## How to run
