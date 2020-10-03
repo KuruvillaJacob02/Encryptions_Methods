@@ -7,6 +7,7 @@ A menu driven Program where a User can encrypt a string in various Encryption Me
 ###### 3 Transpositon Cipher
 ###### 4 PlayFair's Cipher
 ###### 5 Reverse Cipher
+###### 6 Running Key Cipher
 Working On More
 
 ## How to run
@@ -24,3 +25,7 @@ Once the file has been added, dont forget to import and call the fucntion in the
 [Sayak Naskar](https://github.com/hacky1997)
 
 [Dhanvanth Balakrishnan](https://github.com/DanB288)
+
+[Scott Vinay](https://github.com/ScottVinay)
+
+[Insert name here](Insert github profile link here)
