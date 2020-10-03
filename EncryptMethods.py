@@ -3,6 +3,7 @@ from AbtashCipher import atbash
 from ColumnarTranspositionCipher import transpositionCipher
 from PlayfairCipher import playfair_cipher
 from RunningBookCipher import RBCipher
+from SubstitutionCipher import substitution_cipher
 
 ch=1
 while ch!=0:
@@ -12,8 +13,9 @@ while ch!=0:
     print("(4) Playfair Cipher")
     print("(5) Reverse Cipher")
     print("(6) Running-Key Book Cipher")
+    print("(7) Substitution Cipher")
     print("(0) Exit Menu")
-    ch = int(input("Enter Encryption choice (1/2/3/4/5/6/0): ")) #Also update the choices here
+    ch = int(input("Enter Encryption choice (1/2/3/4/5/6/7/0): ")) #Also update the choices here
     if ch==1:
         s=input("Enter String: ")
         k=int(input("Enter the shift value: "))
@@ -56,5 +58,8 @@ while ch!=0:
 
         else:
             print('Mode not recognised')
+    elif ch==7:
+        message = input("Enter message: ")
+        print(substitution_cipher(message))
     
 
