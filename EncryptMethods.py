@@ -4,6 +4,7 @@ from ColumnarTranspositionCipher import transpositionCipher
 from PlayfairCipher import playfair_cipher
 from RunningBookCipher import RBCipher
 from SubstitutionCipher import substitution_cipher
+from BaconianCipher import baconianCipher
 
 ch=1
 while ch!=0:
@@ -14,8 +15,9 @@ while ch!=0:
     print("(5) Reverse Cipher")
     print("(6) Running-Key Book Cipher")
     print("(7) Substitution Cipher")
+    print("(8) Baconian Cipher")
     print("(0) Exit Menu")
-    ch = int(input("Enter Encryption choice (1/2/3/4/5/6/7/0): ")) #Also update the choices here
+    ch = int(input("Enter Encryption choice (1/2/3/4/5/6/7/8/0): ")) #Also update the choices here
     if ch==1:
         s=input("Enter String: ")
         k=int(input("Enter the shift value: "))
@@ -61,5 +63,8 @@ while ch!=0:
     elif ch==7:
         message = input("Enter message: ")
         print(substitution_cipher(message))
+    elif ch==8:
+        message = input("Enter Message: ")
+        print(baconianCipher(message.upper()))
     
 
