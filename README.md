@@ -17,4 +17,7 @@ Once the file has been added, dont forget to import and call the fucntion in the
 ## Contributors
 [Kuruvilla Jacob](https://github.com/KuruvillaJacob02)
 
+[Vivek Ashok](https://github.com/codephile1221)
+
+
 [Your name here](Your GitHub/Linkedin URL here)
