@@ -1,4 +1,4 @@
-def playfairCipher(plain,key):
+def playfair_cipher(plain,key):
     def sqMatrix(size,elements):
         matrix = [[0 for x in range(size)] for y in range(size)]
         i = 0
