@@ -8,6 +8,7 @@ A menu driven Program where a User can encrypt a string in various Encryption Me
 ###### 4 PlayFair's Cipher
 ###### 5 Reverse Cipher
 ###### 6 Running Key Cipher
+###### 7 Substitution Cipher
 Working On More
 
 ## How to run
@@ -27,5 +28,7 @@ Once the file has been added, dont forget to import and call the fucntion in the
 [Dhanvanth Balakrishnan](https://github.com/DanB288)
 
 [Scott Vinay](https://github.com/ScottVinay)
+
+[Ankit Sridhar](https://github.com/ankitsridhar16)
 
 [Insert name here](Insert github profile link here)
