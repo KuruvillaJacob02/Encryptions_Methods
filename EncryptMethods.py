@@ -9,8 +9,9 @@ while ch!=0:
     print("(2) Atbash Cipher")        # in the menu
     print("(3) ColumnarTranspositionCipher")
     print("(4) Playfair Cipher")
+    print("(5) Reverse Cipher")
     print("(0) Exit Menu")
-    ch = int(input("Enter Encryption choice (1/2/3/4/0): ")) #Also update the choices here
+    ch = int(input("Enter Encryption choice (1/2/3/4/5/0): ")) #Also update the choices here
     if ch==1:
         s=input("Enter String: ")
         k=int(input("Enter the shift value: "))
@@ -32,4 +33,7 @@ while ch!=0:
         string = input("Enter string:")
         key = input("Enter the key (a string):")
         print(playfair_cipher(string,key))
+        
+    elif ch==5:
+        Reverse_Cipher.py
     
