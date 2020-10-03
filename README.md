@@ -5,6 +5,7 @@ A menu driven Porgram where a User can encrypt a string in various Encryption Me
 ###### 1 Ceasars Cipher
 ###### 2 Atbash Cipher
 ###### 3 Transpositon Cipher
+###### 4 PlayFair's Cipher
 Working On More
 
 ## How to run
