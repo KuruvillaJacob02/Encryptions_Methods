@@ -1,4 +1,5 @@
-from EncryptFunc import *
+import Ceasarscipher as cc
+import AbtashCipher as ac
 ch=1
 while ch!=0:
     print("(1)Ceasar's Cipher")      #Do not forget to add the encryption method option
@@ -8,12 +9,12 @@ while ch!=0:
     if ch==1:
         s=input("Enter String")
         k=int(input("Enter the shift value"))
-        s=caesar_cipher(s, k):
+        s=cc.caesar_cipher(s, k):
         print(s)
     
     elif ch==2:
         string=input("Enter String")
-        string=atbash(string)
+        string=ac.atbash(string)
         print(string)
     
        
