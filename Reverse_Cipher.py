@@ -1,4 +1,5 @@
-message = 'I love to code in python.'
+# message = 'I love to code in python.'
+message = input("Please type your message: ")
 translated = ''
 
 i = len(message) - 1
