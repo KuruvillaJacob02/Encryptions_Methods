@@ -11,23 +11,23 @@ while ch!=0:
     print("(4) Playfair Cipher")
     print("(0) Exit Menu")
     ch = int(input("Enter Encryption choice (1/2/3/4/0): ")) #Also update the choices here
-    if ch == 1:
-        s = input("Enter String: ")
-        k = int(input("Enter the shift value: "))
-        s =c aesar_cipher(s, k)
+    if ch==1:
+        s=input("Enter String: ")
+        k=int(input("Enter the shift value: "))
+        s=caesar_cipher(s, k)
         print(s)
     
-    elif ch == 2:
-        string = input("Enter String: ")
-        string = a tbash(string)
+    elif ch==2:
+        string=input("Enter String: ")
+        string=atbash(string)
         print(string)
 
-    elif ch == 3:
+    elif ch==3:
         message = input("Enter Message: ")
         key = int(input("Enter key: "))
         message = transpositionCipher(key,message) 
-        print(message)
-    
+        print(message) 
+        
     elif ch == 4:
         string = input("Enter string:")
         key = input("Enter the key (a string):")
