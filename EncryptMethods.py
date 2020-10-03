@@ -35,5 +35,6 @@ while ch!=0:
         print(playfair_cipher(string,key))
         
     elif ch==5:
-        Reverse_Cipher.py
+        message = input("Enter your message: ")
+        print(Reverse_cipher(message))
     
