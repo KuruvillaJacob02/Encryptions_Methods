@@ -1,4 +1,5 @@
-from EncryptFunc import *
+from Ceasarscipher import caesar_cipher
+from AbtashCipher import atbash
 ch=1
 while ch!=0:
     print("(1)Ceasar's Cipher")      #Do not forget to add the encryption method option
