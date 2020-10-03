@@ -6,9 +6,14 @@ while ch!=0:
     print("(0)Exit Menu")
     ch=int(input("Enter Encryption choice (1/2/0)")) #Also update the choices here
     if ch==1:
-        print("Code yet to be Implemented")
+        s=input("Enter String")
+        k=int(input("Enter the shift value"))
+        s=caesar_cipher(s, k):
+        print(s)
+    
     elif ch==2:
         string=input("Enter String")
         string=atbash(string)
         print(string)
+    
        

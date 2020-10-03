@@ -11,3 +11,20 @@ def atbash(string):
             s2+=char
     string=s2
     return string
+def caesar_cipher(s, k):
+    s2=''
+    for char in s:
+        if char>='a' and char<='z':
+            asciival=ord(char)+k
+            if asciival>122:
+                asciival=96+(asciival-122)
+            s2+=chr(asciival)
+        elif char>='A' and char<='Z':
+            asciival=ord(char)+k
+            if asciival>90:
+                asciival=64+(asciival-90)
+            s2+=chr(asciival)
+        else:
+            s2+=char
+    s=s2
+    return s
