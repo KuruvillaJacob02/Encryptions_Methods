@@ -6,6 +6,7 @@ A menu driven Porgram where a User can encrypt a string in various Encryption Me
 ###### 2 Atbash Cipher
 ###### 3 Transpositon Cipher
 ###### 4 PlayFair's Cipher
+###### 5 Reverse Cipher
 Working On More
 
 ## How to run
@@ -20,5 +21,6 @@ Once the file has been added, dont forget to import and call the fucntion in the
 
 [Vivek Ashok](https://github.com/codephile1221)
 
+[Sayak Naskar](https://github.com/hacky1997)
 
 [Dhanvanth Balakrishnan](https://github.com/DanB288)
