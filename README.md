@@ -1,5 +1,5 @@
 # Encryptions Methods
-A menu driven Porgram where a User can encrypt a string in various Encryption Methods
+A menu driven Program where a User can encrypt a string in various Encryption Methods
 
 ## Encryption Methods Available 
 ###### 1 Ceasars Cipher
